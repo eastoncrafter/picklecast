@@ -13,7 +13,7 @@ import sysconfig
 import ssl
 import websockets
 
-from .version import __version__
+from version import __version__ 
 
 log = logging.getLogger('picklecast')
 logging.basicConfig()
